@@ -8,7 +8,7 @@
     <description>60 segundos de informação que vale dinheiro! Boletim diário do mercado de soja direto pro produtor brasileiro.</description>
     <language>pt-BR</language>
     <copyright>Copyright 2024 Giro do Agro</copyright>
-    <lastBuildDate>Mon, 23 Jun 2025 19:10:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Jun 2025 19:30:53 GMT</lastBuildDate>
     <itunes:author>Giro do Agro</itunes:author>
     <itunes:summary>Boletim diário do mercado de soja direto pro produtor brasileiro. Preços, tendências e alertas em apenas 60 segundos.</itunes:summary>
     <itunes:owner>
@@ -61,6 +61,18 @@
       <itunes:duration>00:01:00</itunes:duration>
       <itunes:episode>23</itunes:episode>
       <itunes:season>1</itunes:season>
+    </item>
+    
+        <item>
+      <title>Giro do Agro - 23/06/2025</title>
+      <description><![CDATA[Bom dia, produtor de soja! Hoje é segunda-feira, vinte e três de junho, o preço da soja tá cento e oitenta e nove reais a saca e o dólar cinco reais e cinquenta centavos. Bora pra mais um Giro do Agro com as notícias que cê precisa saber antes de ir pra lida. Pro pessoal do Acre, entrou em vigor no domingo o período do Vazio Sanitário da soja que vai até o dia vinte de setembro. Essa medida é importante pra proteger as lavouras e garantir uma produção sustentável na safra vinte e vinte cinco,...]]></description>
+      <link>https://girodoagrorss.netlify.app/episodes/giro-2025-06-23.mp3</link>
+      <guid isPermaLink="false">girodogro-2025-06-23T19:30:53.677Z</guid>
+      <pubDate>Mon, 23 Jun 2025 19:30:53 GMT</pubDate>
+      <enclosure url="https://girodoagrorss.netlify.app/episodes/giro-2025-06-23.mp3" 
+                 length="1921000" 
+                 type="audio/mpeg"/>
+      <itunes:duration>00:01:00</itunes:duration>
     </item>
     
     <!-- Episódios serão adicionados aqui -->

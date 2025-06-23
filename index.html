@@ -1,49 +1,238 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giro do Agro - Podcast</title>
+    <title>Café com Soja - Seu boletim matinal do agronegócio</title>
+    <meta name="description" content="60 segundos com as cotações e notícias mais importantes do mercado de soja. Tome seu café bem informado!">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Café com Soja - Podcast">
+    <meta property="og:description" content="Seu boletim matinal de 60 segundos com as cotações da soja">
+    <meta property="og:image" content="https://cafecomsoja.netlify.app/cover.jpg">
+    
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
-            font-family: Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #2d1810 0%, #1a0f08 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .container {
             max-width: 600px;
             margin: 0 auto;
-            padding: 20px;
-            background: #f5f5f5;
+            padding: 40px 20px;
         }
-        .container {
+        
+        .card {
             background: white;
-            padding: 30px;
-            border-radius: 10px;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
             text-align: center;
+            position: relative;
+            overflow: hidden;
         }
-        img {
+        
+        .card::before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            right: -50px;
+            width: 150px;
+            height: 150px;
+            background: radial-gradient(circle, #8B4513 0%, transparent 70%);
+            opacity: 0.1;
+        }
+        
+        .logo {
             width: 200px;
-            border-radius: 10px;
+            height: 200px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            background: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 30px;
+            font-size: 60px;
         }
+        
+        h1 {
+            font-size: 2.5em;
+            color: #2d1810;
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+        
+        .tagline {
+            font-size: 1.2em;
+            color: #8B4513;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        
+        .description {
+            font-size: 1em;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        
+        .info {
+            background: #faf6f2;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .info-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+            font-size: 0.9em;
+            color: #666;
+        }
+        
+        .info-item span {
+            margin-left: 8px;
+        }
+        
+        .links {
+            display: grid;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
         .links a {
-            display: inline-block;
-            margin: 10px;
-            padding: 10px 20px;
-            background: #1DB954;
-            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 18px 30px;
             text-decoration: none;
-            border-radius: 25px;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .primary-link {
+            background: linear-gradient(135deg, #8B4513, #A0522D);
+            color: white;
+        }
+        
+        .primary-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(139, 69, 19, 0.3);
+        }
+        
+        .secondary-link {
+            background: #f5f5f5;
+            color: #333;
+            border: 2px solid #e0e0e0;
+        }
+        
+        .secondary-link:hover {
+            background: #fff;
+            border-color: #8B4513;
+            color: #8B4513;
+        }
+        
+        .icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        
+        .schedule {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px 15px;
+            }
+            
+            .card {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="cover.jpg" alt="Giro do Agro">
-        <h1>Giro do Agro</h1>
-        <p>60 segundos de informação que vale dinheiro!</p>
-        <p>Boletim diário do mercado de soja para produtores brasileiros</p>
-        
-        <div class="links">
-            <a href="feed.xml">RSS Feed</a>
-            <a href="https://open.spotify.com/show/[SEU_ID]">Spotify</a>
+        <div class="card">
+            <div class="logo">☕</div>
+            
+            <h1>Café com Soja</h1>
+            <p class="tagline">Seu café da manhã com informação</p>
+            
+            <p class="description">
+                60 segundos com as cotações e notícias mais importantes do mercado de soja. 
+                Acorde bem informado sobre o agronegócio brasileiro!
+            </p>
+            
+            <div class="info">
+                <div class="info-item">
+                    <span>⏱️</span>
+                    <span>Episódios de 60 segundos</span>
+                </div>
+                <div class="info-item">
+                    <span>📊</span>
+                    <span>Cotação CEPEA/Paranaguá + Dólar</span>
+                </div>
+                <div class="info-item">
+                    <span>🌱</span>
+                    <span>Notícias selecionadas do agro</span>
+                </div>
+            </div>
+            
+            <div class="links">
+                <a href="feed.xml" class="primary-link">
+                    <svg class="icon" fill="white" viewBox="0 0 24 24">
+                        <path d="M3.75 3C3.33579 3 3 3.33579 3 3.75C3 4.16421 3.33579 4.5 3.75 4.5H20.25C20.6642 4.5 21 4.16421 21 3.75C21 3.33579 20.6642 3 20.25 3H3.75Z"/>
+                        <path d="M3 7.5C3 7.08579 3.33579 6.75 3.75 6.75H20.25C20.6642 6.75 21 7.08579 21 7.5C21 7.91421 20.6642 8.25 20.25 8.25H3.75C3.33579 8.25 3 7.91421 3 7.5Z"/>
+                        <path d="M3.75 10.5C3.33579 10.5 3 10.8358 3 11.25C3 11.6642 3.33579 12 3.75 12H20.25C20.6642 12 21 11.6642 21 11.25C21 10.8358 20.6642 10.5 20.25 10.5H3.75Z"/>
+                    </svg>
+                    Assinar via RSS
+                </a>
+                
+                <a href="https://open.spotify.com/show/SEU_ID_AQUI" class="secondary-link">
+                    <svg class="icon" fill="#1DB954" viewBox="0 0 24 24">
+                        <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+                    </svg>
+                    Ouvir no Spotify
+                </a>
+                
+                <a href="https://podcasts.apple.com/br/podcast/cafe-com-soja/idSEU_ID" class="secondary-link">
+                    <svg class="icon" fill="#872EC4" viewBox="0 0 24 24">
+                        <path d="M11.999 0C5.372 0 0 5.372 0 12s5.372 12 11.999 12C18.627 24 24 18.627 24 12S18.627 0 11.999 0zm0 19.291c-1.016 0-1.841-.826-1.841-1.842s.825-1.841 1.841-1.841 1.842.825 1.842 1.841-.826 1.842-1.842 1.842zm0-4.431c-.448 0-.841-.392-.841-.841V6.372c0-.448.392-.841.841-.841s.841.392.841.841v7.647c0 .448-.392.841-.841.841z"/>
+                    </svg>
+                    Apple Podcasts
+                </a>
+            </div>
+            
+            <div class="schedule">
+                <p>🌅 Novos episódios de segunda a sexta, às 5h da manhã</p>
+            </div>
         </div>
     </div>
 </body>

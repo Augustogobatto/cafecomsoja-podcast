@@ -8,7 +8,7 @@
     <description>60 segundos de informação que vale dinheiro! Boletim diário do mercado de soja direto pro produtor brasileiro.</description>
     <language>pt-BR</language>
     <copyright>Copyright 2024 Giro do Agro</copyright>
-    <lastBuildDate>Mon, 23 Jun 2025 19:00:56 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Jun 2025 19:10:39 GMT</lastBuildDate>
     <itunes:author>Giro do Agro</itunes:author>
     <itunes:summary>Boletim diário do mercado de soja direto pro produtor brasileiro. Preços, tendências e alertas em apenas 60 segundos.</itunes:summary>
     <itunes:owner>
@@ -41,6 +41,20 @@
       <link>https://girodoagrorss.netlify.app/episodes/giro-2025-06-23.mp3</link>
       <guid isPermaLink="false">girodogro-2025-06-23T19:00:56.893Z</guid>
       <pubDate>Mon, 23 Jun 2025 19:00:56 GMT</pubDate>
+      <enclosure url="https://girodoagrorss.netlify.app/episodes/giro-2025-06-23.mp3" 
+                 length="1000000" 
+                 type="audio/mpeg"/>
+      <itunes:duration>00:01:00</itunes:duration>
+      <itunes:episode>23</itunes:episode>
+      <itunes:season>1</itunes:season>
+    </item>
+    
+        <item>
+      <title>Giro do Agro - 23/06/2025</title>
+      <description><![CDATA[]]></description>
+      <link>https://girodoagrorss.netlify.app/episodes/giro-2025-06-23.mp3</link>
+      <guid isPermaLink="false">girodogro-2025-06-23T19:10:39.016Z</guid>
+      <pubDate>Mon, 23 Jun 2025 19:10:39 GMT</pubDate>
       <enclosure url="https://girodoagrorss.netlify.app/episodes/giro-2025-06-23.mp3" 
                  length="1000000" 
                  type="audio/mpeg"/>

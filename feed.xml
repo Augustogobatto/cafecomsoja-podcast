@@ -8,7 +8,7 @@
     <description>Seu boletim matinal de 60 segundos com as cotações e notícias mais importantes do mercado de soja. Tome seu café bem informado!</description>
     <language>pt-BR</language>
     <copyright>Copyright 2025 Café com Soja</copyright>
-    <lastBuildDate>Thu, 26 Jun 2025 09:01:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jun 2025 22:21:50 GMT</lastBuildDate>
     <itunes:author>Café com Soja</itunes:author>
     <itunes:summary>Acorde com as principais notícias do agronegócio em apenas 60 segundos. Cotações da soja CEPEA/Paranaguá, dólar e os fatos mais relevantes para o produtor rural brasileiro. De segunda a sexta, às 5h da manhã.</itunes:summary>
     <itunes:owner>
@@ -496,6 +496,27 @@ Bom dia, produtor! Hoje é quinta-feira, 26 de junho, o preço da soja no CEPEA 
       <pubDate>Thu, 26 Jun 2025 09:01:00 GMT</pubDate>
       <enclosure url="https://cafecomsoja.netlify.app/episodes/cafe-com-soja-2025-06-26-0900.mp3" 
                  length="1472515" 
+                 type="audio/mpeg"/>
+      <itunes:duration>00:01:00</itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    
+        <item>
+      <title>135 SACAS! 😱 Produtor de SC QUEBRA RECORDE NACIONAL (Leandro Barcellos explica)</title>
+      <description><![CDATA[☕ quinta-feira, 26/06/2025
+
+📰 DESTAQUES:
+Se você acha que 100 sacas por hectare é muito, espera até ouvir o que aconteceu em Canoinhas... Charles Breda e o Grupo Mallon acabaram de cravar 135,49 sacas por hectare! Isso mesmo que você ouviu... CENTO E TRINTA E CINCO! Campeão nacional do Desafio do CESB 2025. E não foi sorte não... O Leandro...
+
+🎧 Ouça o boletim completo de 60 segundos com as principais notícias do agronegócio brasileiro!
+
+#CaféComSoja #Soja #Agronegócio #MercadoAgrícola #CEPEA]]></description>
+      <link>https://cafecomsoja.netlify.app/episodes/cafe-com-soja-2025-06-26-2221.mp3</link>
+      <guid isPermaLink="false">cafecomsoja-2025-06-26T22:21:50.653Z</guid>
+      <pubDate>Thu, 26 Jun 2025 22:21:50 GMT</pubDate>
+      <enclosure url="https://cafecomsoja.netlify.app/episodes/cafe-com-soja-2025-06-26-2221.mp3" 
+                 length="1031986" 
                  type="audio/mpeg"/>
       <itunes:duration>00:01:00</itunes:duration>
       <itunes:explicit>No</itunes:explicit>

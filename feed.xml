@@ -8,7 +8,7 @@
     <description>Seu boletim matinal de 60 segundos com as cotações e notícias mais importantes do mercado de soja. Tome seu café bem informado!</description>
     <language>pt-BR</language>
     <copyright>Copyright 2025 Café com Soja</copyright>
-    <lastBuildDate>Wed, 09 Jul 2025 09:00:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jul 2025 09:00:46 GMT</lastBuildDate>
     <itunes:author>Café com Soja</itunes:author>
     <itunes:summary>Acorde com as principais notícias do agronegócio em apenas 60 segundos. Cotações da soja CEPEA/Paranaguá, dólar e os fatos mais relevantes para o produtor rural brasileiro. De segunda a sexta, às 5h da manhã.</itunes:summary>
     <itunes:owner>
@@ -797,6 +797,31 @@ Bom dia, produtor! Hoje é quarta-feira, nove de julho, o preço da soja no CEPE
       <pubDate>Wed, 09 Jul 2025 09:00:44 GMT</pubDate>
       <enclosure url="https://cafecomsoja.netlify.app/episodes/cafe-com-soja-2025-07-09-0900.mp3" 
                  length="1529775" 
+                 type="audio/mpeg"/>
+      <itunes:duration>00:01:00</itunes:duration>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    
+        <item>
+      <title>Café com Soja #1007 - Soja R$ 134 | Dólar R$ 5,58</title>
+      <description><![CDATA[☕ quinta-feira, 10/07/2025
+
+💰 COTAÇÕES DO DIA:
+- Soja CEPEA Paranaguá: R$ 134/saca
+- Dólar: R$ 5,58
+
+📰 DESTAQUES:
+Bom dia, produtor! Hoje é quinta-feira, dez de julho, o preço da soja no CEPEA Paranaguá tá cento e trinta e quatro reais a saca e o dólar cinco reais e cinquenta e oito centavos. Bora pra mais um café com soja com as notícias que cê precisa saber antes de ir pra lida. Pro povo do Paraná e Rio Gra...
+
+🎧 Ouça o boletim completo de 60 segundos com as principais notícias do agronegócio brasileiro!
+
+#CaféComSoja #Soja #Agronegócio #MercadoAgrícola #CEPEA]]></description>
+      <link>https://cafecomsoja.netlify.app/episodes/cafe-com-soja-2025-07-10-0900.mp3</link>
+      <guid isPermaLink="false">cafecomsoja-2025-07-10T09:00:46.374Z</guid>
+      <pubDate>Thu, 10 Jul 2025 09:00:46 GMT</pubDate>
+      <enclosure url="https://cafecomsoja.netlify.app/episodes/cafe-com-soja-2025-07-10-0900.mp3" 
+                 length="1606262" 
                  type="audio/mpeg"/>
       <itunes:duration>00:01:00</itunes:duration>
       <itunes:explicit>No</itunes:explicit>
